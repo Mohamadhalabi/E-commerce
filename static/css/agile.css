@@ -1,0 +1,58 @@
+@media screen and (min-width: 1200px){
+  .ssr-carousel-right-icon{
+    position: absolute;
+    left: 30px;
+    bottom: 0;
+  }
+
+  .ssr-carousel-left-icon{
+    position: absolute;
+    right: 30px;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1199px){
+  .ssr-carousel-right-icon{
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+  }
+
+  .ssr-carousel-left-icon{
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 993px){
+  .ssr-carousel-right-icon{
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+  }
+
+  .ssr-carousel-left-icon{
+    position: absolute;
+    right: 5px;
+    bottom: 0;
+    width: 35px;
+    height: 35px;
+  }
+}
+i.prevButton.fa.fa-chevron-left , i.nextButton.fa.fa-chevron-right{
+  font-size: 40px;
+  color: blue;
+}
+[aria-disabled] > .ssr-carousel-left-icon, [aria-disabled] > .ssr-carousel-right-icon {
+  opacity: 0.5!important;
+}
+:not([aria-disabled]) > .ssr-carousel-left-icon, :not([aria-disabled]) > .ssr-carousel-right-icon{
+  opacity: 1!important;
+}
+
+.ssr-carousel-dots{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,199 @@
+// Variables
+$orange-color: #f07905;
+$navy-color: #535250;
+$navy-color-dark: #000;
+$orange-light-color: lighten($orange-color, 48);
+$orange-light2-color: lighten($orange-color, 49.5);
+$navy-dark-color: rgba($navy-color, .7);
+$navy-light-color: rgba($navy-color, 1);
+$navy-light2-color: rgba($navy-color, .42);
+$navy-light3-color: rgba($navy-color, .14);
+$navy-light4-color: rgba($navy-color, .07);
+$grey-color: #e1e1e1;
+$red-color: #f52020;
+
+// Skin / Font
+$font-size: 1.4rem !default;
+$sidebar-font-size: 1.4rem !default;
+$footer-font-size: 1.3rem !default;
+$input-font-size: 1.2rem !default;
+$button-font-size: 1.4rem !default;
+
+// Skin / Color
+$primary-color: #08C !default;
+$primary-color-dark: $navy-color !default;
+$secondary-color: #ff7272 !default;
+$secondary-color-dark: #2f3946 !default;
+$secondary-color-light: #515151 !default;
+$link-color: $primary-color !default;
+
+$body-text: $navy-light-color !default;
+$light-text: $navy-light-color !default;
+$headings-text: $navy-color !default;
+
+// Skin / Border Radius
+$border-radius: 0 !default;
+
+// Skin / Font Family
+$font-family: Poppins, sans-serif !default;
+$second-font-family: Poppins, sans-serif !default;
+$third-font-family: Poppins, sans-serif !default;
+
+// Skin / Shop Page Font Family
+$shop-font-family: Poppins, sans-serif !default;
+$shop-second-font-family: Poppins, sans-serif !default;
+
+// Breakpoints
+$breakpoints: (xs: 480px, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px, xlst: 1920px);
+$max-breakpoints: (xs: 479px, sm: 575px, md: 767px, lg: 991px, xl: 1199px, xxl: 1599px);
+
+// Owl Carousel
+$dot-border: rgba(0, 0, 0, .4);
+$dot-width: 15px;
+$dot-height: 15px;
+$nav-color: $primary-color-dark;
+$nav-color-hover: $nav-color;
+$nav-font-size: 3rem !default;
+
+// Magnific Popup
+$mfp-overlay-opacity: .4;
+
+
+
+.contact-two {
+    > .container {
+        margin-bottom: 3rem;
+    }
+
+    #map {
+        margin-bottom: 3.2rem;
+        height: 400px;
+        background-color: $orange-light-color;
+
+        address {
+            margin: 0;
+            padding: .625rem .875rem;
+            font-size: 1.3rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: .8rem;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+    }
+
+    .required-field>label:after {
+        margin-bottom: .4rem;
+        color: $navy-light-color;
+        font-size: 1.3rem;
+    }
+
+    .contact-info {
+        margin-bottom: 3rem;
+        padding-top: .4rem;
+    }
+
+    .contact-info > div {
+        // @include clearfix;
+        margin-bottom: 2rem;
+    }
+
+    .contact-info i {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
+        float: left;
+        border-radius: 50%;
+        background-color: #3b3b3b;
+        color: white;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .contact-info p {
+        margin-bottom: 0;
+        margin-left: 5.5rem;
+
+        &:first-of-type {
+            padding-top: .1rem;
+        }
+    }
+
+    label {
+        margin-bottom: 1.1rem;
+        color: $navy-light-color;
+        font-family: "Open Sans",sans-serif;
+        font-size: 1.4rem;
+        font-weight: 400;
+    }
+
+    .form-control {
+        border-color: rgba($navy-color,0.09);
+        height: 37px;
+    }
+
+    .form-group {
+        margin-bottom: 1.8rem;
+    }
+
+    textarea.form-control {
+        min-height: 208px;
+    }
+
+    .form-footer {
+        margin-top: 1.6rem;
+    }
+
+    .btn {
+        padding: 0.7rem 1.3rem .7rem 1.4rem;
+        font-size: 1.4rem;
+        font-weight: 400;
+        text-transform: none;
+    }
+
+    .contact-title {
+        margin-top: 1.6rem;
+        margin-bottom: 1.3rem;
+        font-size: 2rem;
+    }
+
+    p {
+        padding-bottom: 5px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .porto-sicon-title {
+        margin: 0;
+        margin-left: 1.5rem;
+        color: $navy-light-color;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+
+    .contact-time {
+        padding-top: 4px;
+
+        .contact-title {
+            margin-bottom: 1.4rem;
+        }
+
+        .porto-sicon-title {
+            margin-top: 1px;
+        }
+
+        .porto-sicon-box {
+            margin-bottom: 2.3rem;
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+  "/api/shop": "/shop",
+  "/api/product": "/product",
+  "/api/product?quick_view=true": "/productQuickView"
+}

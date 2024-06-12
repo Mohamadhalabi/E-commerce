@@ -1,0 +1,9 @@
+.header-right .header-user .header-userinfo{
+    display: flex !important;
+    align-items: start !important;
+    justify-content: end !important;
+    flex-direction: column;
+}
+.header-right .contact-widget{
+    align-items: start !important;
+}

@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parser": "vue-eslint-parser",
+  "extends": ["eslint-config-rapida", "plugin:vue/vue3-recommended"],
+  "parserOptions": {
+    "parser": "@babel/eslint-parser",
+    "sourceType": "module"
+  },
+  "rules": {
+    "camelcase": "off",
+    "linebreak-style": ["warn", "windows"],
+    "semi": ["warn", "always"],
+    "object-curly-spacing": "warn",
+    "vue/object-curly-spacing": "warn",
+    "vue/mustache-interpolation-spacing": ["warn", "never"],
+    "vue/prefer-template": "warn",
+    "vue/require-default-prop": "off"
+  }
+}
